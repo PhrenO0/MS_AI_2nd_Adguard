@@ -279,7 +279,7 @@ class Rewriter:
 동적 Few-shot 사례의 변환 패턴을 참고하되, 원본의 브랜드 아이덴티티는 유지하세요.
 JSON 스키마대로만 응답하세요."""
 
-        # 4. GPT-4o 호출
+        # 4. GPT-4.1 호출
         response = self.client.chat.completions.create(
             model=self.deployment,
             messages=[

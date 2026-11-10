@@ -171,7 +171,7 @@ function EstimatedCostCard({ totalCount }: { totalCount: number }) {
             <DollarSign className="w-4 h-4 text-emerald-500" />
             운영 비용 예측 (Estimated Cost)
           </h2>
-          <p className="text-[11px] text-gray-400 mt-1">GPT-4o 토큰 사용량 기반 실시간 추정치</p>
+          <p className="text-[11px] text-gray-400 mt-1">GPT-4.1 토큰 사용량 기반 실시간 추정치</p>
         </div>
         <span className="text-[10px] font-bold bg-gray-100 text-gray-500 px-2 py-1 rounded-md uppercase tracking-widest">USD</span>
       </div>

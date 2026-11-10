@@ -52,7 +52,7 @@ adguard/
 │   ├── product_context.py       제품 유형 컨텍스트
 │   ├── rule_engine.py           L1 Rule Engine
 │   ├── retriever.py             L2 RAG Retriever
-│   ├── judge.py                 L3 GPT-4o Judge
+│   ├── judge.py                 L3 GPT-4.1 Judge
 │   ├── l4_rewriter.py           L4 Rewriter
 │   ├── l5_rejudge.py            L5 Re-Judge
 │   └── fewshot_selector.py      L4 few-shot 선별기
@@ -103,7 +103,7 @@ L1 · Rule Engine          (키워드·regex 필터, blocklist.yaml)
          ↓
 L2 · Retriever            (Azure AI Search 하이브리드)
          ↓
-L3 · Judge                (GPT-4o, RAG 법 조항 직접 인용)
+L3 · Judge                (GPT-4.1, RAG 법 조항 직접 인용)
          ↓
 L4 · Rewriter             (3스타일 수정안, 동적 few-shot)
          ↓
